@@ -1,4 +1,16 @@
+// Create the following functions:
 
+//     isValid: accepts a Date, and returns false if the Date is invalid.
+//     isAfter: accepts two Date arguments, and returns true if the first is greater then the second.
+//     isBefore: accepts two Date arguments, and returns true if the second is greater than the first.
+//     isFuture: accepts a Date, and returns true if the Date is valid, and is after than the presultultent date.
+//     isPast: accepts a Date, and returns true if the Date is valid, and is before the presultultent date.
+// Notions:
+//     date-fns: isValid
+//     date-fns: isAfter
+//     date-fns: isBefore
+//     date-fns: isFuture
+//     date-fns: isPast
 
 
 function isValid(date) {
