@@ -1,4 +1,4 @@
-/**Create a function named all that works like Promise.all but with objects (instead of arrays).
+/**We are creating the function  that works like Promise.all but with objects (instead of arrays). It takes argument. 
 The provided code will be added to your solution, and does not need to be submitted: Promise.all = undefined   */
 
 async function all(arg) {
