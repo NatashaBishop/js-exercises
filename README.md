@@ -3,7 +3,7 @@
 ### DOM manipulation with JS: 
 ...
 #### beginner stuff: 
-https://www.codedex.io/intermediate-javascript/01-introduction
-https://www.w3schools.com/js/default.asp 
-https://developer.mozilla.org/en-US/docs/Learn https://javascript.info/
+https://www.codedex.io/intermediate-javascript/01-introduction  
+https://www.w3schools.com/js/default.asp  
+https://developer.mozilla.org/en-US/docs/Learn https://javascript.info/  
 
