@@ -41,4 +41,35 @@ function addWeek(date) {
     // → This gives us whether the week is "odd" or "even".
     let diff = diffDates(date, day0) % 2;
 
-    // If the week number is even,
+    // If the week number is even, OR before week 1 (diff < 1) → just return the weekday
+    if (diff % 2 === 0 || diff < 1) {
+        return getWeekDay(date);
+    } 
+    // Otherwise, it's an odd week → prepend "second" to the weekday
+    else {
+        let day = getWeekDay(date);
+        return 'second ' + day;  // Added a space for readability
+    }
+}
+
+
+/**
+ * Function: timeTravel
+ * --------------------
+ * Mutates the given Date object by setting it to the specified time
+ * (hour, minute, second). Returns the updated Date object.
+ * 
+ * Example: 
+ *   let d = new Date("2023-04-01T00:00:00");
+ *   timeTravel({ date: d, hour: 14, minute: 30, second: 0 });
+ *   → Date object now represents "2023-04-01 14:30:00".
+ */
+function timeTravel({ date, hour, minute, second }) {
+    // Set the hours, minutes, and seconds on the existing Date object
+    date.setHours(hour);
+    date.setMinutes(minute);
+    date.setSeconds(second);
+
+    // Return the updated date
+    return date;
+}
